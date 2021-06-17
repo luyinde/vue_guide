@@ -23,6 +23,12 @@ const routes = [{
         name: 'Getters',
         component: () =>
             import ('../views/Getters.vue')
+    },
+    {
+        path: '/mutation',
+        name: 'Mutation',
+        component: () =>
+            import ('../views/Mutation.vue')
     }
 ]
 
